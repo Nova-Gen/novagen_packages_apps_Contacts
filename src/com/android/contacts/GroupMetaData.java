@@ -19,7 +19,7 @@ package com.android.contacts;
  * Meta-data for a contact group.  We load all groups associated with the contact's
  * constituent accounts.
  */
-public final class GroupMetaData {
+public final class GroupMetaData implements java.io.Serializable {
     private String mAccountName;
     private String mAccountType;
     private String mDataSet;

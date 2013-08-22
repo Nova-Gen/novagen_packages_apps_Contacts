@@ -47,7 +47,7 @@ import java.util.ArrayList;
  * partial loading of contact data.  Thus, an instance of this class should be treated as
  * a read-only object.
  */
-public class Contact {
+public class Contact implements java.io.Serializable {
     private enum Status {
         /** Contact is successfully loaded */
         LOADED,
